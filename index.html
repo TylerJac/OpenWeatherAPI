@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <header class="text-center mb-4">
+            <h1 class="display-4">Weather App</h1>
+        </header>
+        <main>
+            <div id="input-section" class="text-center mb-4">
+                <div class="form-group">
+                    <label for="zip-code">Enter Zip Code:</label>
+                    <input type="text" id="zip-code" name="zip-code" class="form-control d-inline-block w-auto mx-2">
+                    <button id="get-weather" class="btn btn-primary mx-2">Get Weather</button>
+                    <button id="toggle-temp-unit" class="btn btn-secondary mx-2">Toggle to °F</button>
+                </div>
+            </div>
+            <div id="weather-display" class="card p-4">
+                <h2 class="card-title">Weather Information</h2>
+                <p id="current-date" class="card-text"></p>
+                <p id="city" class="card-text"></p>
+                <p id="current-temp" class="card-text"></p>
+                <p id="current-conditions" class="card-text"></p>
+                <p id="temp-high-low" class="card-text"></p>
+            </div>
+        </main>
+    </div>
+    <script src="openWeather.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

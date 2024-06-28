@@ -1,0 +1,71 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background 1s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header h1 {
+    color: #333;
+}
+
+#input-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#weather-display {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#weather-display .card-title {
+    color: #007bff;
+}
+
+#weather-display .card-text {
+    font-size: 1.1rem;
+}
+
+/* Weather condition backgrounds */
+.clear-sky {
+    background-image: url('images/XFbw.gif');
+}
+
+.few-clouds {
+    background-image: url('images/images/23dQ.gif');
+}
+
+.scattered-clouds {
+    background-image: url('images/giphy.gif');
+}
+
+.broken-clouds {
+    background-image: url('images/9dfDiQ.gif');
+}
+
+.shower-rain {
+    background-image: url('images/b97d3b37c852941ef6419e72909f2400.gif');
+}
+
+.rain {
+    background-image: url('images/rain.gif');
+}
+
+.thunderstorm {
+    background-image: url('images/thunder.gif');
+}
+
+.snow {
+    background-image: url('images/icegif-1331.gif');
+}
+
+.mist {
+    background-image: url('images/cc51a378a4accec027b87361dab54217.gif');
+}
